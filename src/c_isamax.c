@@ -17,7 +17,7 @@
 
 // NOTES: 
 // -	For more details about ISAMAX:  http://www.netlib.org/lapack/explore-html/d0/d73/group__aux__blas_ga16c36ed9a25ca6e68931c4a00d2778e5.html
-// -	For more details about other BLAS routines: http://www.netlib.org/blas/
+// -	For more details about other BLAS routines: http://www.netlib.org/blas/ 
 
 
 #include <stdio.h>
