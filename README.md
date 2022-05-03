@@ -1,6 +1,6 @@
 # ISAMAX-BLAS-Level-1-Routine-in-Halide-and-C
 This is an implementation of a BLAS (Level 1) routine called "ISAMAX" which finds the index of the first element having maximum absolute value, in both Halide and C.
-
+ 
 ## 1. Description
 This repository mainly contains:
   - ./src: This folder includes the implementation of the routine ISAMAX in Halide and C and the Script that compiles and runs the programs.
