@@ -5,7 +5,7 @@
 
 // On linux, you can compile and run it like so:
 // g++ halide_isamax.cpp -g -I <path/to/Halide.h> -L <path/to/libHalide.so> -lHalide -lpthread -ldl -o halide_isamax -std=c++17
-// LD_LIBRARY_PATH=<path/to/libHalide.so> ./halide_isamax
+// LD_LIBRARY_PATH = <path/to/libHalide.so> ./halide_isamax
 
 
 // ****************************************   ISAMAX   ************************************************
