@@ -5,7 +5,7 @@ import subprocess
 # Function that compiles and runs halide_isamax.
 def launch_halide():
 
-    print("################        ISAMAX in Halide      #################\n")
+    print("################        ISAMAX in Halide      #################\n") 
     
     # Compiling halide_isamax.cpp (Necessary arguments: <path/to/Halide.h> and <path/to/libHalide.so>)
     os.system("g++ halide_isamax.cpp -g -I {} -L {} -lHalide -lpthread -ldl -o ./halide_isamax".format(sys.argv[1], sys.argv[2]))
