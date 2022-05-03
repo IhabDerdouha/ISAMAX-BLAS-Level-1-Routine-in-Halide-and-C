@@ -4,7 +4,7 @@
 // uses unrolled loops for increment equal to 1.
 
 // On linux, you can compile and run it like so:
-// g++ c_isamax.c -o halide_isamax 
+// g++ c_isamax.c -o c_isamax 
 // ./c_isamax
 
 
