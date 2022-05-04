@@ -8,7 +8,7 @@ def launch_halide():
     print("################        ISAMAX in Halide      #################\n") 
     
     # Compiling halide_isamax.cpp (Necessary arguments: <path/to/Halide.h> and <path/to/libHalide.so>)
-    os.system("g++ halide_isamax.cpp -g -I {} -L {} -lHalide -lpthread -ldl -o ./halide_isamax".format(sys.argv[1], sys.argv[2]))
+    os.system("g++ halide_isamax.cpp -g -I {} -L {} -lHalide -lpthread -ldl -o ./halide_isamax -std=c++17".format(sys.argv[1], sys.argv[2]))
   
     # Retrieve ISAMAX arguments from command line and run the program
     if (len(sys.argv) == 4):
